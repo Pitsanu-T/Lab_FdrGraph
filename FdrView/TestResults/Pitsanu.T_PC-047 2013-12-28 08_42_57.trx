@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dd35782e-3cad-43d1-aed9-a592948a505c" name="Pitsanu.T@PC-047 2013-12-28 08:42:57" runUser="CARPASSAD\Pitsanu.T" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="85137bba-d422-4c95-af3f-4e7370925841">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pitsanu.T_PC-047 2013-12-28 08_42_57" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-28T08:42:57.8644059+07:00" queuing="2013-12-28T08:42:57.8844079+07:00" start="2013-12-28T08:42:57.8874082+07:00" finish="2013-12-28T08:42:58.0454240+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OneNullEnddateWithNoGapReturnTwoRecord" storage="d:\lab\datetimemergetests\datetimemergetests\bin\debug\datetimemergetests.dll" id="8b9b932c-56fe-d41d-5280-a1f7619310f3">
+      <Execution id="0ed37ef5-32d4-4b9e-8a4c-4f761b861894" />
+      <TestMethod codeBase="D:/Lab/DateTimeMergeTests/DateTimeMergeTests/bin/Debug/DateTimeMergeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DateTimeMergeTests.UnitTest1, DateTimeMergeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneNullEnddateWithNoGapReturnTwoRecord" />
+    </UnitTest>
+    <UnitTest name="BothEnddateNullReturnOneRecordStartWithEarlyEvent" storage="d:\lab\datetimemergetests\datetimemergetests\bin\debug\datetimemergetests.dll" id="dae7a121-27da-6cea-214b-241fd76d763a">
+      <Execution id="b3e23120-3a9b-41ff-9d64-20e05ce55e1e" />
+      <TestMethod codeBase="D:/Lab/DateTimeMergeTests/DateTimeMergeTests/bin/Debug/DateTimeMergeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DateTimeMergeTests.UnitTest1, DateTimeMergeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BothEnddateNullReturnOneRecordStartWithEarlyEvent" />
+    </UnitTest>
+    <UnitTest name="SameDateTimeMustReturnOneRecord" storage="d:\lab\datetimemergetests\datetimemergetests\bin\debug\datetimemergetests.dll" id="bf55e196-e1b9-d577-b1cc-309fb47c7e61">
+      <Execution id="4c156b33-f2cb-491f-9b63-3313de278df0" />
+      <TestMethod codeBase="D:/Lab/DateTimeMergeTests/DateTimeMergeTests/bin/Debug/DateTimeMergeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DateTimeMergeTests.UnitTest1, DateTimeMergeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SameDateTimeMustReturnOneRecord" />
+    </UnitTest>
+    <UnitTest name="OneNullEnddateWithGapReturnOneRecord" storage="d:\lab\datetimemergetests\datetimemergetests\bin\debug\datetimemergetests.dll" id="7593a922-e3f3-e462-f133-271465b670a5">
+      <Execution id="34781666-453e-40f2-a7f2-5ce53df8d7cc" />
+      <TestMethod codeBase="D:/Lab/DateTimeMergeTests/DateTimeMergeTests/bin/Debug/DateTimeMergeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DateTimeMergeTests.UnitTest1, DateTimeMergeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneNullEnddateWithGapReturnOneRecord" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7593a922-e3f3-e462-f133-271465b670a5" executionId="34781666-453e-40f2-a7f2-5ce53df8d7cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b9b932c-56fe-d41d-5280-a1f7619310f3" executionId="0ed37ef5-32d4-4b9e-8a4c-4f761b861894" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf55e196-e1b9-d577-b1cc-309fb47c7e61" executionId="4c156b33-f2cb-491f-9b63-3313de278df0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dae7a121-27da-6cea-214b-241fd76d763a" executionId="b3e23120-3a9b-41ff-9d64-20e05ce55e1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34781666-453e-40f2-a7f2-5ce53df8d7cc" testId="7593a922-e3f3-e462-f133-271465b670a5" testName="OneNullEnddateWithGapReturnOneRecord" computerName="PC-047" duration="00:00:00.0227315" startTime="2013-12-28T08:42:57.8894084+07:00" endTime="2013-12-28T08:42:58.0184213+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34781666-453e-40f2-a7f2-5ce53df8d7cc">
+      <Output>
+        <StdOut>Begin [1/1/2013 12:00:00 AM], End [NULL]</StdOut>
+        <ErrorInfo>
+          <Message>Test method DateTimeMergeTests.UnitTest1.OneNullEnddateWithGapReturnOneRecord threw exception: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DateTimeMergeTests.UnitTest1.OneNullEnddateWithGapReturnOneRecord() in D:\Lab\DateTimeMergeTests\DateTimeMergeTests\UnitTest1.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ed37ef5-32d4-4b9e-8a4c-4f761b861894" testId="8b9b932c-56fe-d41d-5280-a1f7619310f3" testName="OneNullEnddateWithNoGapReturnTwoRecord" computerName="PC-047" duration="00:00:00.0004079" startTime="2013-12-28T08:42:58.0204215+07:00" endTime="2013-12-28T08:42:58.0224217+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ed37ef5-32d4-4b9e-8a4c-4f761b861894">
+      <Output>
+        <StdOut>Begin [1/6/2013 12:00:00 AM], End [NULL]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c156b33-f2cb-491f-9b63-3313de278df0" testId="bf55e196-e1b9-d577-b1cc-309fb47c7e61" testName="SameDateTimeMustReturnOneRecord" computerName="PC-047" duration="00:00:00.0005846" startTime="2013-12-28T08:42:58.0234218+07:00" endTime="2013-12-28T08:42:58.0254220+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c156b33-f2cb-491f-9b63-3313de278df0">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3e23120-3a9b-41ff-9d64-20e05ce55e1e" testId="dae7a121-27da-6cea-214b-241fd76d763a" testName="BothEnddateNullReturnOneRecordStartWithEarlyEvent" computerName="PC-047" duration="00:00:00.0003232" startTime="2013-12-28T08:42:58.0274222+07:00" endTime="2013-12-28T08:42:58.0324227+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3e23120-3a9b-41ff-9d64-20e05ce55e1e">
+      <Output>
+        <StdOut>Begin [1/1/2013 12:00:00 AM], End [NULL]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f61045cc-be22-43fe-8113-325ca04059c9" name="Pitsanu.T@PC-047 2013-12-27 11:44:05" runUser="CARPASSAD\Pitsanu.T" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="85137bba-d422-4c95-af3f-4e7370925841">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pitsanu.T_PC-047 2013-12-27 11_44_05" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-27T11:44:05.1511527+07:00" queuing="2013-12-27T11:44:05.1691527+07:00" start="2013-12-27T11:44:05.1721527+07:00" finish="2013-12-27T11:44:05.3101527+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SameDateTimeMustReturnOneRecord" storage="d:\lab\datetimemergetests\datetimemergetests\bin\debug\datetimemergetests.dll" id="bf55e196-e1b9-d577-b1cc-309fb47c7e61">
+      <Execution id="f182b09a-908e-49cc-bfbf-09a0cc612199" />
+      <TestMethod codeBase="D:/Lab/DateTimeMergeTests/DateTimeMergeTests/bin/Debug/DateTimeMergeTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DateTimeMergeTests.UnitTest1, DateTimeMergeTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SameDateTimeMustReturnOneRecord" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bf55e196-e1b9-d577-b1cc-309fb47c7e61" executionId="f182b09a-908e-49cc-bfbf-09a0cc612199" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f182b09a-908e-49cc-bfbf-09a0cc612199" testId="bf55e196-e1b9-d577-b1cc-309fb47c7e61" testName="SameDateTimeMustReturnOneRecord" computerName="PC-047" duration="00:00:00.0194241" startTime="2013-12-27T11:44:05.1751527+07:00" endTime="2013-12-27T11:44:05.3001527+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f182b09a-908e-49cc-bfbf-09a0cc612199">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at DateTimeMergeTests.UnitTest1.SameDateTimeMustReturnOneRecord() in D:\Lab\DateTimeMergeTests\DateTimeMergeTests\UnitTest1.cs:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

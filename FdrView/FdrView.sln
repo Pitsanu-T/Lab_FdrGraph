@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMergeTests", "DateTimeMergeTests\DateTimeMergeTests.csproj", "{CBA08260-221B-4682-94C3-9591A5130332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{018284ED-5F2B-48A4-9D37-6145AEB8B538}"
+	ProjectSection(SolutionItems) = preProject
+		DateTimeMergeTests.vsmdi = DateTimeMergeTests.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fdr", "FdrView\Fdr.csproj", "{CF017D4A-56A3-4414-8C7C-6AA77C43C787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{47F080F1-0BAD-4F29-9019-9D997D6958A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{24780EDB-0889-4340-878F-7A070118C13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{14DBA41C-E8ED-4767-8D15-B3BBAD2DEDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeRepository", "FakeRepository\FakeRepository.csproj", "{1106D29D-2EFC-48EF-B736-3244D81D9F3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{E8E0CDD1-273F-4DEE-99FC-82CD016989A3}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DateTimeMergeTests.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA08260-221B-4682-94C3-9591A5130332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA08260-221B-4682-94C3-9591A5130332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA08260-221B-4682-94C3-9591A5130332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA08260-221B-4682-94C3-9591A5130332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF017D4A-56A3-4414-8C7C-6AA77C43C787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF017D4A-56A3-4414-8C7C-6AA77C43C787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF017D4A-56A3-4414-8C7C-6AA77C43C787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF017D4A-56A3-4414-8C7C-6AA77C43C787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F080F1-0BAD-4F29-9019-9D997D6958A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F080F1-0BAD-4F29-9019-9D997D6958A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F080F1-0BAD-4F29-9019-9D997D6958A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F080F1-0BAD-4F29-9019-9D997D6958A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24780EDB-0889-4340-878F-7A070118C13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24780EDB-0889-4340-878F-7A070118C13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24780EDB-0889-4340-878F-7A070118C13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24780EDB-0889-4340-878F-7A070118C13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DBA41C-E8ED-4767-8D15-B3BBAD2DEDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DBA41C-E8ED-4767-8D15-B3BBAD2DEDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DBA41C-E8ED-4767-8D15-B3BBAD2DEDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DBA41C-E8ED-4767-8D15-B3BBAD2DEDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1106D29D-2EFC-48EF-B736-3244D81D9F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1106D29D-2EFC-48EF-B736-3244D81D9F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1106D29D-2EFC-48EF-B736-3244D81D9F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1106D29D-2EFC-48EF-B736-3244D81D9F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E0CDD1-273F-4DEE-99FC-82CD016989A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E0CDD1-273F-4DEE-99FC-82CD016989A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E0CDD1-273F-4DEE-99FC-82CD016989A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E0CDD1-273F-4DEE-99FC-82CD016989A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
