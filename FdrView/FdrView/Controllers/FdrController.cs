@@ -22,11 +22,18 @@ namespace FdrView.Controllers
         // GET: /Fdr/
         public ActionResult Index()
         {
-            List<FdrEvent> fdrevents = FdrRepository.GetFdrs();
-            List<FdrDto> dtos = new List<FdrDto>();
-            foreach (FdrEvent ev in fdrevents) { dtos.Add(ev.ToDto()); }
+            //List<FdrEvent> fdrevents = FdrRepository.GetFdrs();
+            //List<FdrDto> dtos = new List<FdrDto>();
+            //foreach (FdrEvent ev in fdrevents) { dtos.Add(ev.ToDto()); }
 
-            return View(dtos);
+            // Create Fdr Aggregate view from model            
+            List<FdrItemView> list = new List<FdrItemView>();
+            list.Add(FdrItemView.GenerateSample("11111111111111111"));
+            list.Add(FdrItemView.GenerateSample("11111111111111112"));
+
+            ViewBag.Data = list;
+            return View("IndexUsingAngular");
+            //return View(dtos);
         }
 
         // GET: /Fdr/Detail/
@@ -34,6 +41,30 @@ namespace FdrView.Controllers
         {
             return View();
         }
+
+        /*
+        private List<FdrView.Models.FdrItemView> GetSample()
+        {
+            List<FdrItemView> list = new List<FdrItemView>();
+            list.Add(new FdrItemView
+            {
+                Imei = "11111111111111111",
+                IsHaveOpenFdr = "NO",
+                LastOpenDateString = DateTime.Now.ToString(),
+                LastCloseDateString = DateTime.Now.AddHours(10.0).ToString()
+            });
+
+            list.Add(new FdrItemView
+            {
+                Imei = "22222222222222222",
+                IsHaveOpenFdr = "NO",
+                LastOpenDateString = DateTime.Now.ToString(),
+                LastCloseDateString = DateTime.Now.AddHours(10.0).ToString()
+            });
+
+            return list;
+        }
+        */
 
     }
 }
